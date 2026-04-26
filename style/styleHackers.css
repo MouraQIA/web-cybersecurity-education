@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(16, 19, 27);
+    background-image: url('v627-aew-05-technologybackground.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+#content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#tiposHackers {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#tiposHackers ul {
+    background-color: rgba(95, 77, 77, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#tiposHackers li {
+    margin: 15px 0;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+#white {
+    color: #fffce8;
+}
+
+#black {
+    color: #5f4891;
+}
+
+#gray {
+    color: #cccccc;
+}
+
+#script {
+    color: #ffcc00;
+}
+#red {
+    color: #ff3333;
+}
+
+#blue {
+    color: #3399ff;
+}
+
+#delator {
+    color: #ff66cc;
+}
+
+.descricao {
+    display: none; 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+#tiposHackers li:hover .descricao {
+    display: inline; 
+    opacity: 1;
+    color: #ffffff;
+}
+.descricao-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1.6;
+}
