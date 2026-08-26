@@ -4,12 +4,12 @@ Este é um projeto educativo interativo desenvolvido para ensinar os fundamentos
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML5**: Estruturação semântica e acessível.
-- **CSS3 Moderno**:
+- **HTML**: Estruturação semântica e acessível.
+- **CSS**:
   - Arquitetura de estilos globais e específicos.
   - Interface com conceitos de _Glassmorphism_ (efeito de vidro fosco).
   - Animações `@keyframes` para suavidade visual.
-- **JavaScript (ES6+)**:
+- **JavaScript**:
   - Manipulação dinâmica do DOM para quizzes interativos.
   - Persistência de dados com `localStorage` para contador de visitas.
   - Lógica de eventos para interatividade com o utilizador.
@@ -28,7 +28,7 @@ Este projeto está sob a licença MIT. Podes usar e estudar o código, desde que
 ## 👥 Autores
 
 - João Bernardo
-- Emilli Guiliane
+- Emilli Giuliane
 - Bernardo Montgomery
 
 ---
